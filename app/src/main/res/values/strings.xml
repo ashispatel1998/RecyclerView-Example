@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Recyclerview</string>
+
+    <string-array name="new_movies">
+        <item>Tanhaji</item>
+        <item>Baaghi 3</item>
+        <item>Street Dancer 3D</item>
+        <item>Shubh Mangal Zyada Saavdhan</item>
+        <item>Malang</item>
+        <item>Chhapaak</item>
+        <item>Love Aaj Kal</item>
+        <item>Jawaani Jaaneman</item>
+        <item>Thappad</item>
+        <item>Panga</item>
+        <item>Ghost Stories</item>
+        <item>Bhangra Paa Le</item>
+        <item>Sab Kushal Mangal</item>
+        <item>Shimla Mirchi</item>
+        <item>Bunker</item>
+        <item>Jai Mummy Di</item>
+        <item>Gul Makai</item>
+        <item>Shikara</item>
+        <item>Bhoot – Part One: The Haunted Ship</item>
+        <item>The Hundred Bucks</item>
+    </string-array>
+</resources>
