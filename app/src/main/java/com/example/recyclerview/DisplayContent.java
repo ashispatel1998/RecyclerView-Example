@@ -15,6 +15,7 @@ public class DisplayContent extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_content);
 
+        // Get data from intent
         Intent intent = getIntent();
         String title=intent.getStringExtra("title_Id");
 
@@ -25,6 +26,9 @@ public class DisplayContent extends AppCompatActivity {
         //mTitle.setText(toolbar.getTitle());
         mTitle.setText(title);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+        // For Back Arrow -> change in manifest.xml (parentactivity)
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 }
 }

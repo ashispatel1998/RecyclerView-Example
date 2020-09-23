@@ -9,6 +9,7 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
     android:id="@+id/toolbar"
+    android:padding="5dp"
     >
     <TextView
         android:layout_width="wrap_content"
